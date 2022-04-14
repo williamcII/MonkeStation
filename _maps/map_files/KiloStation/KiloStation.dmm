@@ -65238,7 +65238,7 @@
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
-/area/engine/engineering)
+/area/engine/atmos)
 "bVn" = (
 /obj/structure/sign/warning/docking,
 /turf/closed/wall,
@@ -69989,6 +69989,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
 "cbW" = (
@@ -72751,7 +72754,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /turf/open/floor/plasteel/dark,
-/area/engine/engineering)
+/area/engine/atmos)
 "cgJ" = (
 /obj/machinery/ai_slipper{
 	uses = 10
@@ -85121,19 +85124,6 @@
 	icon_state = "panelscorched"
 	},
 /area/maintenance/starboard)
-"cAO" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/power/terminal{
-	dir = 4;
-	icon_state = "term"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/engine,
-/area/engine/engineering)
 "cAP" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
@@ -95199,6 +95189,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/box,
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
 "eXn" = (
@@ -95844,6 +95837,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
@@ -96517,6 +96513,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
@@ -97548,6 +97547,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
 "lAw" = (
@@ -97563,6 +97565,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+/obj/machinery/computer/shuttle_flight/science,
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
 "lDf" = (
@@ -97611,6 +97614,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
@@ -98373,6 +98379,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
 "nTq" = (
@@ -99637,6 +99646,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
@@ -101341,6 +101353,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 8
 	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
 "vqb" = (
@@ -101536,6 +101551,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
@@ -102449,6 +102467,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
 "yeh" = (
@@ -102498,6 +102522,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/shuttledock)
 "yjA" = (
@@ -135628,7 +135655,7 @@ axa
 cpB
 axa
 cpB
-axa
+awu
 bVm
 cgH
 cDA
@@ -139737,7 +139764,7 @@ cnk
 axS
 axa
 cvw
-cAO
+cBt
 cwk
 cBt
 cwe
