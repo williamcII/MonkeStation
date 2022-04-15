@@ -22435,7 +22435,6 @@
 /obj/item/radio/headset/headset_sci{
 	pixel_x = -3
 	},
-/obj/machinery/ecto_sniffer,
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "bow" = (
@@ -45264,6 +45263,10 @@
 	},
 /turf/open/floor/wood,
 /area/library)
+"hYs" = (
+/obj/machinery/ecto_sniffer,
+/turf/open/floor/plasteel/white,
+/area/science/robotics/lab)
 "hZj" = (
 /obj/structure/disposalpipe/segment,
 /obj/item/cigbutt/roach,
@@ -103023,7 +103026,7 @@ aXq
 bds
 bfV
 bhx
-biL
+hYs
 biL
 cHO
 blG
