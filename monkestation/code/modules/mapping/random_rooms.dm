@@ -1,3 +1,5 @@
+// *!! BOXSTATION !!*
+
 //BOXSTATION ENGINES
 /datum/map_template/random_room/box_supermatter
 	name = "Box Supermatter"
@@ -18,6 +20,8 @@
 	weight = 0
 
 
+// *!! METASTATION !!*
+
 //METASTAION ENGINES
 /datum/map_template/random_room/meta_supermatter
 	name = "Meta Supermatter"
@@ -35,4 +39,23 @@
 	centerspawner = FALSE
 	template_height = 26
 	template_width = 32
+	weight = 0
+
+//Metastation Bars
+/datum/map_template/random_room/meta_default_bar
+	name = "Metastation Default Bar"
+	room_id = "meta_default_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Meta/default_bar.dmm"
+	centerspawner = FALSE
+	template_height = 9
+	template_width = 9
+	weight = 0
+
+/datum/map_template/random_room/meta_grungy_bar
+	name = "Metastation Grungy Bar"
+	room_id = "meta_grungy_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Meta/grungy_bar.dmm"
+	centerspawner = FALSE
+	template_height = 9
+	template_width = 9
 	weight = 0
