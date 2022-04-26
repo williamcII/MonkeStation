@@ -6,7 +6,7 @@
 	centerspawner = FALSE
 	template_height = 27
 	template_width = 32
-	weight = 5
+	weight = 0
 
 /datum/map_template/random_room/box_particle_accelerator
 	name = "Box Particle Accelerator"
@@ -15,7 +15,7 @@
 	centerspawner = FALSE
 	template_height = 27
 	template_width = 32
-	weight = 2
+	weight = 0
 
 
 //METASTAION ENGINES
@@ -26,7 +26,7 @@
 	centerspawner = FALSE
 	template_height = 26
 	template_width = 32
-	weight = 5
+	weight = 0
 
 /datum/map_template/random_room/meta_particle_accelerator
 	name = "Meta Particle Accelerator"
@@ -35,4 +35,4 @@
 	centerspawner = FALSE
 	template_height = 26
 	template_width = 32
-	weight = 2
+	weight = 0
