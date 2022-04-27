@@ -18,6 +18,9 @@
 //Random Bars
 /obj/effect/spawner/room/bar/meta
 	name = "meta bar spawner"
-	dedicated_rooms = list(/datum/map_template/random_room/meta_default_bar = 1, /datum/map_template/random_room/meta_grungy_bar = 1)
+	dedicated_rooms = list(/datum/map_template/random_room/meta_default_bar = 1,
+							/datum/map_template/random_room/meta_grungy_bar = 1,
+							/datum/map_template/random_room/meta_medical_bar = 1,
+							/datum/map_template/random_room/meta_tribal_bar = 1)
 	room_width = 9
 	room_height = 9

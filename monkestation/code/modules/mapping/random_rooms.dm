@@ -59,3 +59,21 @@
 	template_height = 9
 	template_width = 9
 	weight = 0
+
+/datum/map_template/random_room/meta_medical_bar
+	name = "Metastation Med-Bar"
+	room_id = "meta_med_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Meta/med_bar.dmm"
+	centerspawner = FALSE
+	template_height = 9
+	template_width = 9
+	weight = 0
+
+/datum/map_template/random_room/meta_tribal_bar
+	name = "Metastation Tribal Bar"
+	room_id = "meta_tribal_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Meta/tribal_bar.dmm"
+	centerspawner = FALSE
+	template_height = 9
+	template_width = 9
+	weight = 0
