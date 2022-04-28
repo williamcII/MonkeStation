@@ -19,6 +19,25 @@
 	template_width = 32
 	weight = 0
 
+//Box Station Bars
+
+/datum/map_template/random_room/box_default_bar
+	name = "Box Station Default Bar"
+	room_id = "box_default_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Box/default_bar.dmm"
+	centerspawner = FALSE
+	template_width = 15
+	template_height = 9
+	weight = 0
+
+/datum/map_template/random_room/box_clown_bar
+	name = "Box Station Clown Bar"
+	room_id = "box_clown_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Box/clown_bar.dmm"
+	centerspawner = FALSE
+	template_width = 15
+	template_height = 9
+	weight = 0
 
 // *!! METASTATION !!*
 
