@@ -39,6 +39,15 @@
 	template_height = 9
 	weight = 0
 
+/datum/map_template/random_room/box_syndi_bar
+	name = "Box Station Syndicate Bar"
+	room_id = "box_syndi_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Box/syndi_bar.dmm"
+	centerspawner = FALSE
+	template_width = 15
+	template_height = 9
+	weight = 0
+
 // *!! METASTATION !!*
 
 //METASTAION ENGINES

@@ -10,7 +10,8 @@
 /obj/effect/spawner/room/bar/box
 	name = "meta bar spawner"
 	dedicated_rooms = list(/datum/map_template/random_room/box_default_bar = 1,
-							/datum/map_template/random_room/box_clown_bar = 1)
+							/datum/map_template/random_room/box_clown_bar = 1,
+							/datum/map_template/random_room/box_syndi_bar = 1)
 	room_width = 15
 	room_height = 9
 

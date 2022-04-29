@@ -2,6 +2,26 @@
 "ab" = (
 /obj/machinery/vending/cigarette,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"am" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half,
+/obj/effect/turf_decal/monke/siding/thinplating/dark,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"bD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/syndicateemblem/bottom/middle,
 /turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
 "bG" = (
@@ -15,6 +35,9 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "bI" = (
@@ -22,13 +45,37 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "dJ" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/under/syndicate/tacticool,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/item/gun/ballistic/automatic/toy/pistol/riot/unrestricted{
+	pixel_y = 6;
+	pixel_x = -5
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"fg" = (
+/obj/structure/chair/stool/bar,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 8
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "fF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -38,11 +85,20 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "fK" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 8
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "fP" = (
@@ -70,14 +126,25 @@
 	pixel_x = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
 "gH" = (
-/obj/structure/table/reinforced,
-/obj/item/gun/ballistic/automatic/toy/pistol/riot/unrestricted{
-	pixel_y = 3
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/syndicateemblem/bottom/right,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"hy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half,
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "io" = (
@@ -87,6 +154,9 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "iB" = (
@@ -108,11 +178,29 @@
 	pixel_y = 28
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"jE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark,
+/turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "kV" = (
-/obj/machinery/vending/boozeomat,
-/turf/closed/wall/mineral/plastitanium,
+/obj/effect/turf_decal/monke/syndicateemblem/top/right,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"lZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "mh" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -132,7 +220,13 @@
 	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 1
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "mt" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -140,6 +234,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "ni" = (
@@ -157,6 +254,9 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "nu" = (
@@ -169,6 +269,9 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 6
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "oK" = (
@@ -177,12 +280,20 @@
 	pixel_y = 13
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "oV" = (
-/obj/structure/window/spawner/east,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
@@ -192,6 +303,16 @@
 	pixel_y = -3
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"qY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "sO" = (
@@ -210,32 +331,20 @@
 "tk" = (
 /obj/item/reagent_containers/food/drinks/drinkingglass{
 	pixel_y = 7;
-	pixel_x = -7
+	pixel_x = -2
 	},
 /obj/item/reagent_containers/food/drinks/bottle/rum{
 	pixel_y = 5;
 	pixel_x = 5
 	},
-/obj/structure/table/reinforced,
+/obj/structure/table/survival_pod,
 /turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
 "ts" = (
-/obj/structure/table/reinforced,
-/obj/item/soap/syndie{
-	pixel_y = -4
-	},
-/obj/item/reagent_containers/glass/rag{
-	pixel_y = 14;
-	pixel_x = 4
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -9;
-	pixel_y = 15
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -9;
-	pixel_y = 11
+/obj/effect/turf_decal/monke/syndicateemblem/top/left,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
@@ -249,18 +358,29 @@
 	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 6
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "vA" = (
-/obj/structure/table/glass/plasma,
-/obj/machinery/door/window/eastleft{
-	req_access_txt = "25"
-	},
 /obj/machinery/door/poddoor/preopen{
 	id = "barShutters";
 	name = "privacy shutters"
 	},
 /obj/effect/turf_decal/delivery/red,
+/obj/structure/table/survival_pod,
+/obj/machinery/door/window/survival_pod{
+	req_access_txt = "25";
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"wa" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "wI" = (
@@ -277,6 +397,13 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
+"wY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
 "zf" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Diner"
@@ -291,17 +418,63 @@
 /area/template_noop)
 "zn" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 8
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/table/survival_pod,
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"zQ" = (
+/obj/structure/chair/stool/bar,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 5
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 10
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "Af" = (
-/obj/structure/sign/poster/contraband/syndicate_recruitment,
+/obj/structure/sign/poster/contraband/syndicate_recruitment{
+	pixel_y = 2;
+	pixel_x = 1
+	},
 /turf/closed/wall/mineral/plastitanium,
 /area/template_noop)
 "As" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/landmark/start/assistant,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 8
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"Ay" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"BM" = (
+/obj/structure/chair/comfy/black{
+	dir = 4;
+	pixel_x = 9;
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner,
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "Cj" = (
@@ -311,11 +484,24 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "Dc" = (
 /obj/effect/landmark/start/bartender,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/syndicateemblem/top/middle,
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"DG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half,
+/obj/effect/turf_decal/monke/siding/thinplating/dark,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "DU" = (
@@ -334,15 +520,27 @@
 	pixel_x = -11
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/syndicateemblem/middle/left,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
 "Ea" = (
 /obj/item/reagent_containers/food/drinks/drinkingglass/filled/nuka_cola{
 	pixel_y = 8;
-	pixel_x = -8
+	pixel_x = -2
 	},
-/obj/structure/table/reinforced,
+/obj/structure/table/survival_pod,
 /turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"Em" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/boozeomat,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
 /area/template_noop)
 "Et" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -352,6 +550,25 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"EM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"Fb" = (
+/obj/structure/chair/comfy/black{
+	pixel_y = -3
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner,
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "Fd" = (
@@ -360,11 +577,49 @@
 	},
 /mob/living/carbon/monkey/punpun,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"Fp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"Gh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark,
+/obj/machinery/light,
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "Gy" = (
 /obj/effect/landmark/start/assistant,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half,
+/obj/effect/turf_decal/monke/siding/thinplating/dark,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"Gz" = (
+/obj/structure/chair/stool/bar,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"Hc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half,
+/obj/effect/turf_decal/monke/siding/thinplating/dark,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "Hx" = (
@@ -375,25 +630,62 @@
 	pixel_x = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 1
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "HA" = (
-/obj/effect/turf_decal/tile/purple,
-/turf/closed/wall/mineral/plastitanium,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 8
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "Ia" = (
 /obj/structure/sign/poster/contraband,
 /turf/closed/wall/mineral/plastitanium,
 /area/template_noop)
+"Kn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
 "Lv" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/effect/turf_decal/monke/tile/bar/tile_half,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "LM" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/template_noop)
 "MB" = (
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"MR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/syndicateemblem/middle/middle,
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"MV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half,
+/obj/effect/turf_decal/monke/siding/thinplating/dark,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "NX" = (
@@ -403,6 +695,41 @@
 	name = "privacy shutters"
 	},
 /turf/open/floor/plating,
+/area/template_noop)
+"Rj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner,
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"RU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"Sf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -9;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -9;
+	pixel_y = 15
+	},
+/obj/item/reagent_containers/glass/rag{
+	pixel_y = 14;
+	pixel_x = 4
+	},
+/obj/item/soap/syndie{
+	pixel_y = -4
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "SG" = (
 /obj/effect/turf_decal/stripes/line{
@@ -414,12 +741,44 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
+"Tn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"Ts" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/obj/effect/turf_decal/monke/siding/thinplating/dark,
+/turf/open/floor/mineral/plastitanium,
+/area/template_noop)
 "TD" = (
 /obj/item/toy/plush/nukeplushie{
 	pixel_y = 3
 	},
-/obj/structure/table/reinforced,
+/obj/structure/table/survival_pod,
 /turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"UE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "UH" = (
 /obj/item/reagent_containers/food/drinks/drinkingglass,
@@ -427,20 +786,33 @@
 	pixel_y = 8;
 	pixel_x = 9
 	},
-/obj/structure/table/reinforced,
+/obj/structure/table/survival_pod,
 /turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"UK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "WE" = (
 /obj/structure/sign/barsign,
 /turf/closed/wall/mineral/plastitanium,
 /area/template_noop)
 "Xi" = (
-/obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/reagent_containers/food/drinks/drinkingglass{
 	pixel_y = 7;
 	pixel_x = -1
 	},
+/obj/effect/turf_decal/monke/tile/bar/tile_half{
+	dir = 8
+	},
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/table/survival_pod,
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
 "Xr" = (
@@ -452,7 +824,26 @@
 	pixel_y = 13
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/siding/thinplating/dark/corner{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
+/area/template_noop)
+"XI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/syndicateemblem/bottom/left,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"Zk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/monke/syndicateemblem/middle/right,
+/obj/effect/turf_decal/monke/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
 "ZI" = (
 /obj/machinery/door/poddoor/preopen{
@@ -465,7 +856,7 @@
 
 (1,1,1) = {"
 LM
-HA
+LM
 ZI
 LM
 wI
@@ -475,101 +866,101 @@ LM
 LM
 "}
 (2,1,1) = {"
-MB
+HA
 fK
 zn
-fK
-MB
+fg
+HA
 As
 Xi
-fK
+zQ
 LM
 "}
 (3,1,1) = {"
-MB
-MB
-fK
-MB
-MB
-MB
-MB
-MB
+Rj
+UK
+Gz
+Fp
+Rj
+UK
+UK
+MV
 LM
 "}
 (4,1,1) = {"
-MB
+jE
+LM
 Ia
+qY
+jE
 LM
-MB
-MB
 LM
-LM
-MB
+DG
 Ia
 "}
 (5,1,1) = {"
-MB
+Gh
 LM
 UH
 Xr
 qX
 TD
 LM
-MB
+am
 LM
 "}
 (6,1,1) = {"
-MB
+wa
 Et
 nl
 nu
-MB
+wY
 Cj
-MB
-MB
+Ay
+Hc
 zf
 "}
 (7,1,1) = {"
-MB
+Rj
 fF
 io
 Fd
-MB
-io
-MB
-MB
+lZ
+BM
+UK
+MV
 ZI
 "}
 (8,1,1) = {"
-MB
+Gh
 mh
 Ea
 oK
-qX
+Fb
 tk
 Ia
-MB
+am
 zf
 "}
 (9,1,1) = {"
-MB
+jE
 mh
 LM
-MB
-MB
+qY
+jE
 LM
 LM
-MB
+DG
 WE
 "}
 (10,1,1) = {"
 mt
 bG
+Tn
+UE
 oV
-oV
-oV
-oV
-MB
+Tn
+Ay
 Gy
 LM
 "}
@@ -597,11 +988,11 @@ LM
 "}
 (13,1,1) = {"
 iT
-Lv
+Sf
 Lv
 ts
 DW
-Lv
+XI
 mn
 dJ
 LM
@@ -609,20 +1000,20 @@ LM
 (14,1,1) = {"
 bI
 MB
-MB
+hy
 Dc
-MB
-MB
-MB
-MB
+MR
+bD
+RU
+Ts
 LM
 "}
 (15,1,1) = {"
-MB
-MB
-MB
+Kn
+Em
+EM
 kV
-MB
+Zk
 gH
 Hx
 tN
