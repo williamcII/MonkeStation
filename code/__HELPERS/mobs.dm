@@ -142,13 +142,9 @@
 		. = "[pick(GLOB.lizard_names_male)]-[pick(GLOB.lizard_names_male)]"
 	else
 		. = "[pick(GLOB.lizard_names_female)]-[pick(GLOB.lizard_names_female)]"
-
 	if(attempts < 10)
 		if(findname(.))
 			. = .(gender, ++attempts)
-
-		if(!findname(.))
-			break
 
 //monkestation edit: add simian species
 /proc/random_unique_simian_name(gender, attempts_to_find_unique_name=10)
