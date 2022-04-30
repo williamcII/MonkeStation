@@ -330,6 +330,13 @@
 	},
 /turf/open/floor/mineral/bananium/no_return,
 /area/template_noop)
+"Gk" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -1
+	},
+/turf/closed/wall/mineral/bananium/zero_return,
+/area/template_noop)
 "Gt" = (
 /obj/structure/chair/old,
 /turf/open/floor/mineral/bananium/no_return,
@@ -538,7 +545,7 @@
 xs
 xs
 ZI
-xs
+Gk
 zf
 xs
 ZI

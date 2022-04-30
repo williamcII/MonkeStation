@@ -48,6 +48,15 @@
 	template_height = 9
 	weight = 0
 
+/datum/map_template/random_room/box_vietmoth_bar
+	name = "Box Station Vietmoth Bar"
+	room_id = "box_vietmoth_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Box/vietmoth_bar.dmm"
+	centerspawner = FALSE
+	template_width = 15
+	template_height = 9
+	weight = 0
+
 // *!! METASTATION !!*
 
 //METASTAION ENGINES
