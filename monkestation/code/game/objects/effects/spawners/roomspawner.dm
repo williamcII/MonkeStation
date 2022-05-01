@@ -8,7 +8,7 @@
 
 //Random Bars
 /obj/effect/spawner/room/bar/box
-	name = "meta bar spawner"
+	name = "box bar spawner"
 	dedicated_rooms = list(/datum/map_template/random_room/box_default_bar = 1,
 							/datum/map_template/random_room/box_clown_bar = 1,
 							/datum/map_template/random_room/box_syndi_bar = 1,
@@ -33,3 +33,13 @@
 							/datum/map_template/random_room/meta_tribal_bar = 1)
 	room_width = 9
 	room_height = 9
+
+/// *!! Random Rooms - PubbyStation Area Spawners !!*
+
+//Random Bars
+/obj/effect/spawner/room/bar/pubby
+	name = "pubby bar spawner"
+	dedicated_rooms = list(/datum/map_template/random_room/pubby_default_bar = 1,
+							/datum/map_template/random_room/pubby_japan_bar = 10)
+	room_width = 18
+	room_height = 12

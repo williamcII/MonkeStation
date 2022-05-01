@@ -114,3 +114,24 @@
 	template_height = 9
 	template_width = 9
 	weight = 0
+
+// *!! PUBBYSTATION !!*
+
+//PubbyStation Bars
+/datum/map_template/random_room/pubby_default_bar
+	name = "Pubbystation Default Bar"
+	room_id = "pubby_default_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Pubby/default_bar.dmm"
+	centerspawner = FALSE
+	template_height = 12
+	template_width = 18
+	weight = 0
+
+/datum/map_template/random_room/pubby_japan_bar
+	name = "Pubbystation Japanese Bar"
+	room_id = "pubby_japanese_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Pubby/japanese_bar.dmm"
+	centerspawner = FALSE
+	template_height = 12
+	template_width = 18
+	weight = 0
