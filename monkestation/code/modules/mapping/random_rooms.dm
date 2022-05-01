@@ -135,3 +135,12 @@
 	template_height = 12
 	template_width = 18
 	weight = 0
+
+/datum/map_template/random_room/pubby_pool_bar
+	name = "Pubbystation Pool Bar"
+	room_id = "pubby_pool_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Pubby/pool_bar.dmm"
+	centerspawner = FALSE
+	template_height = 12
+	template_width = 18
+	weight = 0
