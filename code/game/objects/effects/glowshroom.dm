@@ -28,6 +28,10 @@
 	icon_state = "shadowshroom"
 	myseed = /obj/item/seeds/glowshroom/shadowshroom
 
+/obj/structure/glowshroom/Destroy()
+	if(myseed)
+		QDEL_NULL(myseed)
+	return ..()
 
 /obj/structure/glowshroom/New(loc, obj/item/seeds/newseed, mutate_stats)
 	..()
