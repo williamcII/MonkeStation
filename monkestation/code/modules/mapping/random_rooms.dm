@@ -144,3 +144,12 @@
 	template_height = 12
 	template_width = 18
 	weight = 0
+
+/datum/map_template/random_room/pubby_hobo_bar
+	name = "Pubbystation Hobo Bar"
+	room_id = "pubby_hobo_bar"
+	mappath = "monkestation/_maps/RandomRooms/_Bars/Pubby/hobo_bar.dmm"
+	centerspawner = FALSE
+	template_height = 12
+	template_width = 18
+	weight = 0

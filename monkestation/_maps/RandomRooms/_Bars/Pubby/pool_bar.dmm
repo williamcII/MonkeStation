@@ -247,6 +247,11 @@
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /turf/open/floor/noslip/darkblue,
 /area/template_noop)
+"hN" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/glass/rag,
+/turf/open/floor/noslip/darkblue,
+/area/template_noop)
 "il" = (
 /obj/effect/turf_decal/pool/corner{
 	dir = 8
@@ -1543,7 +1548,7 @@ Uu
 (9,1,1) = {"
 tB
 ze
-Fj
+hN
 rK
 aA
 zD
