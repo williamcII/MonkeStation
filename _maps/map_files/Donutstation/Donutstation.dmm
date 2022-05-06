@@ -56937,6 +56937,10 @@
 "tHJ" = (
 /turf/closed/wall/r_wall,
 /area/engine/engine_room/external)
+"tJP" = (
+/obj/machinery/ecto_sniffer,
+/turf/open/floor/plasteel/white,
+/area/science/robotics/lab)
 "tKA" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -85955,7 +85959,7 @@ afo
 bmb
 bkg
 alE
-ajp
+tJP
 aEx
 aEz
 aEB
