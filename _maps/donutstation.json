@@ -1,7 +1,7 @@
 {
 	"map_name": "Donut Station",
 	"map_link": "DonutStation",
-	"map_path": "map_files/Donutstation",
+	"map_path": "map_files/DonutStation",
 	"map_file": "DonutStation.dmm",
 	"shuttles": {
 		"emergency": "emergency_donut",
