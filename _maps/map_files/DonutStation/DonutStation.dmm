@@ -53564,15 +53564,6 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
 /turf/open/space/basic,
 /area/space/nearstation)
-"ixy" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/carpet/green,
-/area/hallway/primary/central)
 "iCB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -101426,7 +101417,7 @@ anX
 ceo
 anX
 btV
-ixy
+aRk
 ibF
 acZ
 acZ
