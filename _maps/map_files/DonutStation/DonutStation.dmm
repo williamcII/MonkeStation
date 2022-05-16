@@ -4312,6 +4312,7 @@
 	dir = 1
 	},
 /obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/tile/green,
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "aky" = (
@@ -4544,6 +4545,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/green,
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "akV" = (
@@ -11896,9 +11898,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aBS" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
 /turf/open/floor/plasteel/white/corner{
 	dir = 8
 	},
@@ -13351,6 +13350,9 @@
 	dir = 2;
 	network = list("ss13","Medical")
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics)
 "aEV" = (
@@ -13541,6 +13543,9 @@
 	pixel_x = -23
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics)
 "aFl" = (
@@ -17156,7 +17161,7 @@
 	icon_state = "2-4"
 	},
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/ai_monitored/turret_protected/aisat/service)
 "aNL" = (
 /obj/structure/closet/secure_closet/security,
 /obj/effect/turf_decal/tile/red{
@@ -22107,9 +22112,6 @@
 /turf/open/floor/plasteel,
 /area/medical/cryo)
 "aYe" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
 /turf/open/floor/plasteel/white/corner,
 /area/medical/genetics)
 "aYf" = (
@@ -43392,7 +43394,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/ai_monitored/turret_protected/aisat/foyer)
 "bNs" = (
 /obj/item/stack/cable_coil/cut/red,
 /turf/open/space/basic,
@@ -46733,6 +46735,9 @@
 "bUo" = (
 /obj/effect/turf_decal/tile/green,
 /obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "bUp" = (
@@ -52716,9 +52721,6 @@
 "gqB" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/rxglasses,
-/obj/machinery/light{
-	dir = 8
-	},
 /obj/item/storage/box/disks{
 	pixel_x = 3;
 	pixel_y = 3
@@ -55011,8 +55013,6 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "mWO" = (
-/obj/structure/lattice,
-/obj/structure/lattice/catwalk,
 /obj/item/stack/marker_beacon{
 	anchored = 1;
 	icon_state = "markerburgundy-on";
@@ -55022,6 +55022,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/space)
 "mXC" = (
