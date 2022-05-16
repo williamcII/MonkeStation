@@ -13510,9 +13510,7 @@
 	dir = 2;
 	network = list("ss13","Medical")
 	},
-/mob/living/simple_animal/bot/cleanbot{
-	name = "C.L.E.A.N."
-	},
+/obj/machinery/computer/crew,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/lobby)
 "aFi" = (
@@ -53564,6 +53562,12 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
 /turf/open/space/basic,
 /area/space/nearstation)
+"ixy" = (
+/mob/living/simple_animal/bot/cleanbot{
+	name = "C.L.E.A.N."
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
 "iCB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -83938,7 +83942,7 @@ bKk
 aHZ
 aFT
 aGk
-aGt
+ixy
 beC
 aHF
 aKh
