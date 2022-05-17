@@ -5516,7 +5516,7 @@
 "anG" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Engineering Maintenance Access";
-	req_access_txt = "10"
+	req_one_access_txt = "32;19"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -10314,10 +10314,9 @@
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "ayt" = (
-/obj/machinery/door/airlock/atmos{
-	name = "Atmospherics Foyer";
-	req_access_txt = "0";
-	req_one_access_txt = "24;10"
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Foyer";
+	req_one_access_txt = "32;19"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -12460,7 +12459,7 @@
 "aDe" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Starboard Aux Solar Access";
-	req_access_txt = "10"
+	req_one_access_txt = "32;19"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -27053,7 +27052,7 @@
 "bih" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Aft Solar Access";
-	req_access_txt = "10"
+	req_one_access_txt = "32;19"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -32688,9 +32687,6 @@
 /obj/item/clothing/suit/judgerobe,
 /obj/item/gavelblock,
 /obj/item/gavelhammer,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/item/stack/sheet/mineral/copper{
 	amount = 5
 	},
@@ -34876,6 +34872,10 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
 /turf/open/floor/plating,
 /area/maintenance/disposal)
 "bwH" = (
@@ -34991,9 +34991,9 @@
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "bwV" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Engine Room";
-	req_access_txt = "10"
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Foyer";
+	req_one_access_txt = "32;19"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
@@ -39560,9 +39560,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/maintenance{
-	name = "Security Maintenance";
-	req_access_txt = "12;1";
-	req_one_access_txt = "0"
+	req_one_access_txt = "12"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -54718,9 +54716,9 @@
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "moO" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Engine Room";
-	req_access_txt = "10"
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Foyer";
+	req_one_access_txt = "32;19"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -55080,9 +55078,7 @@
 /area/engine/engineering)
 "nbA" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "Security Maintenance";
-	req_access_txt = "12;1";
-	req_one_access_txt = "0"
+	req_one_access_txt = "12"
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/security)
