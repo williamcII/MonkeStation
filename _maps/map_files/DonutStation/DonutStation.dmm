@@ -58652,7 +58652,7 @@
 	pixel_y = 25
 	},
 /turf/open/floor/plasteel,
-/area/engine/engine_room)
+/area/engine/engine_core)
 "wBW" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
