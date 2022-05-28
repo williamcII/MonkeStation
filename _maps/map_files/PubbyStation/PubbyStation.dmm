@@ -34702,8 +34702,8 @@
 /area/engine/atmos)
 "bNd" = (
 /obj/machinery/meter/atmos/atmos_waste_loop,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
-	dir = 10
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer3{
 	dir = 4
@@ -38613,7 +38613,6 @@
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal/incinerator)
 "bWP" = (
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/machinery/atmospherics/pipe/manifold/cyan/visible{
 	dir = 8
 	},
@@ -55051,6 +55050,16 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
+"oEw" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
+/turf/open/floor/plasteel,
+/area/engine/atmos)
 "oEA" = (
 /turf/closed/wall,
 /area/construction/mining/aux_base)
@@ -97938,7 +97947,7 @@ bHp
 cqx
 bJJ
 bJN
-bTH
+oEw
 bNd
 bOl
 bQI
