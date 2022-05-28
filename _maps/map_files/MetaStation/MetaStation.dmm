@@ -28601,19 +28601,6 @@
 	},
 /turf/open/floor/plating,
 /area/aisat)
-"bgd" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/aisat)
 "bge" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -28630,6 +28617,12 @@
 	},
 /obj/machinery/advanced_airlock_controller{
 	pixel_y = 24
+	},
+/obj/machinery/atmospherics/components/binary/dp_vent_pump/layer1{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/aisat)
@@ -28650,6 +28643,12 @@
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/aisat)
@@ -29961,11 +29960,11 @@
 /area/maintenance/port/fore)
 "biC" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 6
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 6
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
@@ -44865,12 +44864,17 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
 "bOd" = (
-/obj/machinery/door/airlock/external{
-	name = "Auxiliary Airlock"
+/obj/structure/window/reinforced{
+	dir = 4
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/plating,
-/area/hallway/secondary/entry)
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/aisat)
 "bOe" = (
 /obj/machinery/door/airlock/maintenance{
 	req_one_access_txt = "12;27"
@@ -75831,13 +75835,14 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
 "dYu" = (
-/obj/machinery/door/airlock/external{
-	name = "Auxiliary Airlock"
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 6
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 6
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "dZx" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -78061,6 +78066,8 @@
 	dir = 4;
 	pixel_x = -24
 	},
+/obj/machinery/atmospherics/components/binary/dp_vent_pump/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "lKn" = (
@@ -91240,10 +91247,10 @@ aaa
 aaa
 aRA
 btS
-aWU
-bOd
-lIZ
 dYu
+bjy
+lIZ
+bmx
 aaa
 aaa
 aaa
@@ -133112,7 +133119,7 @@ aaa
 anT
 aaa
 aMq
-bgd
+jXK
 jXK
 aOV
 aMq
@@ -133883,7 +133890,7 @@ aNw
 aNw
 aSD
 bes
-bgg
+bOd
 bqa
 bgg
 bgg
