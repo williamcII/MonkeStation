@@ -23743,7 +23743,7 @@
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
 "bbl" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall,
 /area/maintenance/disposal/incinerator)
 "bbm" = (
@@ -45679,7 +45679,7 @@
 /obj/machinery/atmospherics/components/binary/pump/on{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /obj/structure/sign/warning/fire{
@@ -46625,11 +46625,11 @@
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
 "bUu" = (
-/obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/machinery/atmospherics/pipe/layer_manifold/visible,
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal/incinerator)
 "bUv" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal/incinerator)
 "bUw" = (
@@ -46661,7 +46661,7 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "bUA" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 9
 	},
 /turf/closed/wall/r_wall,
@@ -53177,6 +53177,10 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/shuttledock)
+"hWH" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/visible,
+/turf/closed/wall,
+/area/maintenance/disposal/incinerator)
 "hXd" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/external{
@@ -93623,7 +93627,7 @@ bba
 aSh
 aSh
 bbj
-bbl
+hWH
 bbl
 bbl
 bUv
