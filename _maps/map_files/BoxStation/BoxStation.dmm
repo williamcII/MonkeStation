@@ -7698,13 +7698,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
-"auz" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 6
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard/fore)
 "auA" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/external{
@@ -8551,7 +8544,6 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
 	},
@@ -42480,7 +42472,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
 "fpd" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer3{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
@@ -51831,20 +51823,6 @@
 	},
 /turf/open/floor/plating,
 /area/construction)
-"qPO" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor";
-	name = "supply dock loading door"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/quartermaster/storage)
 "qPP" = (
 /obj/machinery/camera/autoname,
 /turf/open/space,
@@ -57397,10 +57375,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
-"xKU" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/closed/wall/r_wall,
-/area/maintenance/solars/port/aft)
 "xLQ" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -75469,7 +75443,7 @@ bqi
 tgb
 xQD
 tgb
-qPO
+bvS
 cDQ
 aaa
 aaa
@@ -76787,7 +76761,7 @@ bCq
 bCq
 bCq
 cfw
-xKU
+cfw
 pic
 uRR
 uRR
@@ -97783,7 +97757,7 @@ aaa
 aaa
 aaa
 aag
-auz
+alO
 avC
 alO
 aya

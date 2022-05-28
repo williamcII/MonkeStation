@@ -3699,6 +3699,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	name = "freezer passive vent"
+	},
 /turf/open/floor/plasteel/dark/telecomms,
 /area/quartermaster/exploration_prep)
 "agE" = (
@@ -97350,8 +97353,9 @@
 /turf/open/floor/plasteel/dark,
 /area/science/shuttledock)
 "lqU" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 1
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 1;
+	name = "freezer passive vent"
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -99897,14 +99901,11 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /mob/living/carbon/monkey{
 	name = "Ook";
 	unique_name = 0
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/warden)
 "rrF" = (
