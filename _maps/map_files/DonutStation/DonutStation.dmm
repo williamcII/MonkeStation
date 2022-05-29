@@ -4273,10 +4273,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
-"aks" = (
-/obj/effect/landmark/event_spawn,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit/departure_lounge)
 "akt" = (
 /turf/open/floor/plasteel,
 /area/security/brig)
@@ -8413,7 +8409,7 @@
 "aub" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer{
 	dir = 1;
-	piping_layer = 1
+	piping_layer = 2
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
@@ -85785,7 +85781,7 @@ amE
 agr
 kXJ
 awe
-aks
+awe
 awe
 plI
 agr
@@ -91182,7 +91178,7 @@ agt
 clC
 fSj
 awe
-aks
+awe
 awe
 abG
 clC
