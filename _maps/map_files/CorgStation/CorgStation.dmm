@@ -13216,10 +13216,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/aft)
-"dkR" = (
-/obj/structure/railing/corner,
-/turf/open/floor/plasteel,
-/area/hallway/upper/secondary/entry)
 "dkZ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 5
@@ -13825,9 +13821,6 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj{
-	name = "---Merge conflict marker---"
 	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -16940,6 +16933,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"egH" = (
+/obj/structure/railing,
+/turf/open/floor/plating,
+/area/maintenance/upper/starboard/central)
 "ehi" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -17651,11 +17648,10 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/aft)
 "epu" = (
-/obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/turf/open/openspace,
+/turf/open/floor/plating,
 /area/quartermaster/exploration_dock)
 "epA" = (
 /obj/effect/turf_decal/stripes/line{
@@ -24110,11 +24106,10 @@
 /turf/open/floor/carpet/royalblue,
 /area/crew_quarters/heads/captain)
 "fMf" = (
-/obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
-/turf/open/openspace,
+/turf/open/floor/plating,
 /area/quartermaster/exploration_dock)
 "fMj" = (
 /obj/effect/turf_decal/tile/blue{
@@ -25454,6 +25449,28 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai)
+"gcu" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/plasteel,
+/area/hallway/upper/secondary/entry)
 "gcE" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 4
@@ -34924,11 +34941,10 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "iuF" = (
-/obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
-/turf/open/openspace,
+/turf/open/floor/plating,
 /area/quartermaster/exploration_dock)
 "iuG" = (
 /obj/effect/turf_decal/tile/red{
@@ -36581,16 +36597,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/engine_room)
-"iQu" = (
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard)
 "iQz" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -41779,11 +41785,10 @@
 /turf/open/floor/plating,
 /area/maintenance/port/central)
 "kgF" = (
-/obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/open/openspace,
+/turf/open/floor/plating,
 /area/quartermaster/exploration_dock)
 "kgG" = (
 /obj/machinery/light/small{
@@ -54247,12 +54252,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hos)
-"nll" = (
-/obj/structure/railing{
-	dir = 5
-	},
-/turf/open/openspace,
-/area/quartermaster/exploration_dock)
 "nlo" = (
 /obj/structure/window/reinforced/spawner{
 	dir = 8
@@ -57274,12 +57273,6 @@
 /obj/structure/closet/crate/science,
 /turf/open/floor/plasteel/white,
 /area/science/shuttledock)
-"nXK" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/openspace,
-/area/quartermaster/exploration_dock)
 "nXO" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -58655,19 +58648,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/bridge)
-"oqh" = (
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/structure/stairs{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard)
 "oqm" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/structure/closet/crate,
@@ -61936,14 +61916,7 @@
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "pgE" = (
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/structure/stairs{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
+/turf/open/openspace,
 /area/hallway/primary/starboard)
 "pgF" = (
 /obj/effect/turf_decal/plaque{
@@ -73530,31 +73503,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"rXN" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel,
-/area/hallway/upper/secondary/entry)
 "rXP" = (
 /obj/machinery/camera/autoname{
 	dir = 8
@@ -76957,12 +76905,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/upper/primary/fore)
-"sSS" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/openspace,
-/area/quartermaster/exploration_dock)
 "sTe" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -82480,9 +82422,6 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj{
-	name = "---Merge conflict marker---"
 	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -89794,6 +89733,9 @@
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "vVh" = (
+/obj/structure/stairs{
+	dir = 8
+	},
 /turf/open/openspace,
 /area/hallway/upper/secondary/entry)
 "vVz" = (
@@ -91143,9 +91085,6 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj{
-	name = "---Merge conflict marker---"
 	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -98822,10 +98761,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/storage/eva)
 "yff" = (
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/openspace,
+/turf/open/floor/plating,
 /area/quartermaster/exploration_dock)
 "yfl" = (
 /obj/effect/turf_decal/stripes/line,
@@ -137803,9 +137739,9 @@ axN
 uMu
 lyn
 gfK
-dkR
-eim
-aJM
+tqs
+tqs
+gcu
 uXr
 nWb
 cPf
@@ -138061,8 +137997,8 @@ uMu
 fxw
 fxw
 fxw
-vVh
-rXN
+eim
+aJM
 snv
 fxw
 fxw
@@ -138315,7 +138251,7 @@ ksm
 aOu
 bJC
 uMu
-nXK
+yff
 yff
 fxw
 vVh
@@ -138573,7 +138509,7 @@ kKU
 trB
 oGG
 iuF
-sSS
+yff
 fxw
 vVh
 sKM
@@ -138830,7 +138766,7 @@ eAN
 eAN
 uMu
 epu
-nll
+yff
 fxw
 nQC
 uiA
@@ -140371,8 +140307,8 @@ fSg
 lyn
 nst
 drg
-wnU
-wnU
+eyJ
+eyJ
 fxw
 sMp
 twA
@@ -140628,9 +140564,9 @@ nBc
 fFu
 ccT
 drg
-wnU
-wnU
-mKl
+eyJ
+eyJ
+egH
 waM
 twA
 qne
@@ -140885,9 +140821,9 @@ fSg
 lyn
 sKn
 drg
-wnU
-wnU
-mKl
+eyJ
+eyJ
+egH
 waM
 twA
 wGd
@@ -141142,9 +141078,9 @@ fSg
 lyn
 hMz
 drg
-wnU
-wnU
-mKl
+eyJ
+eyJ
+egH
 ugM
 twA
 dRs
@@ -141399,9 +141335,9 @@ fSg
 lyn
 sKn
 drg
-wnU
-wnU
-mKl
+eyJ
+eyJ
+egH
 dqS
 twA
 scm
@@ -141656,9 +141592,9 @@ wNW
 jFw
 kQo
 drg
-wnU
-wnU
-mKl
+eyJ
+eyJ
+egH
 wlP
 twA
 jOG
@@ -141913,9 +141849,9 @@ aND
 eUs
 cRw
 drg
-wnU
-wnU
-mKl
+eyJ
+eyJ
+egH
 waM
 twA
 aVu
@@ -142170,9 +142106,9 @@ jaR
 cbn
 cbn
 jaR
-wnU
-wnU
-mKl
+eyJ
+eyJ
+egH
 waM
 twA
 xmu
@@ -142428,8 +142364,8 @@ dQi
 fja
 jaR
 jaR
-drg
-drg
+eyJ
+eyJ
 qtU
 twA
 wGd
@@ -203597,7 +203533,7 @@ aYS
 wOc
 mtc
 qOR
-iQu
+liO
 btY
 hze
 fmj
@@ -204111,7 +204047,7 @@ oua
 qaK
 vxB
 fsT
-oqh
+pgE
 btY
 unX
 rQD
