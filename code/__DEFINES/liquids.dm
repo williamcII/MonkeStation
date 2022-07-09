@@ -1,8 +1,8 @@
 #define WATER_HEIGH_DIFFERENCE_SOUND_CHANCE 50
 #define WATER_HEIGH_DIFFERENCE_DELTA_SPLASH 7 //Delta needed for the splash effect to be made in 1 go
 
-#define REQUIRED_EVAPORATION_PROCESSES 80
-#define EVAPORATION_CHANCE 30
+#define REQUIRED_EVAPORATION_PROCESSES 40
+#define EVAPORATION_CHANCE 40
 
 #define REQUIRED_FIRE_PROCESSES 4
 #define REQUIRED_FIRE_POWER_PER_UNIT 5
@@ -73,3 +73,7 @@
 
 #define SUBMERGEMENT_PERCENT(carbon, liquids) min(1,(!MOBILITY_STAND ? liquids.liquid_state+LYING_DOWN_SUBMERGEMENT_STATE_BONUS : liquids.liquid_state)/TOTAL_LIQUID_STATES)
 
+GLOBAL_LIST_INIT(liquid_blacklist, list(
+	/datum/reagent/sorium,
+	/datum/reagent/liquid_dark_matter
+))
