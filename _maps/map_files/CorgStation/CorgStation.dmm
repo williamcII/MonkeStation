@@ -16989,7 +16989,7 @@
 /obj/structure/railing{
 	dir = 6
 	},
-/turf/open/openspace,
+/turf/open/space/basic,
 /area/maintenance/upper/aft)
 "ehM" = (
 /obj/structure/table,
@@ -29102,6 +29102,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/starboard/central)
+"gXO" = (
+/obj/structure/railing,
+/turf/open/space/basic,
+/area/maintenance/upper/aft)
 "gXU" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/secure_data/laptop{
@@ -36743,7 +36747,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/openspace,
+/turf/open/space/basic,
 /area/maintenance/upper/aft)
 "iST" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -139891,15 +139895,15 @@ aOa
 oZx
 iXQ
 prq
-aLE
-aLE
-aLE
-aLE
-aLE
-aLE
-aLE
-aLE
-ede
+lSs
+lSs
+lSs
+lSs
+lSs
+lSs
+lSs
+lSs
+gXO
 jpH
 pcv
 fEl
@@ -140148,15 +140152,15 @@ rFy
 cCm
 hoX
 prq
-aLE
-aLE
-aLE
-aLE
-aLE
-aLE
-aLE
-aLE
-ede
+lSs
+lSs
+lSs
+lSs
+lSs
+lSs
+lSs
+lSs
+gXO
 pkg
 fVJ
 mFE
@@ -140408,7 +140412,7 @@ prq
 iSS
 iSS
 iSS
-aLE
+lSs
 iSS
 iSS
 iSS
